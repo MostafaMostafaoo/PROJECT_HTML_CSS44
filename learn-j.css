@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    height: 60px;
+}
+
+
+.car{
+    
+    padding: 20px 200px;
+   
+}
+
+.car a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(21, 6, 36);
+    margin: 30px ;
+}
+
+
+.car a:hover{
+    color: blue;
+}
+
+
+.car-1{
+    padding: 20px ;
+
+}
+
+.car-1 a{
+    text-decoration: none;
+    margin: 7px;
+}
+
+.car-1 a:hover{
+
+    color: blue;
+
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.325);
+
+    /* opacity: .10; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.car-2{
+    margin: 0 150px;
+    
+}
+
+
+.car-3{
+    padding: 20px ;
+ 
+}
+
+.car-3 a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    
+    
+}
+
+.car-3 a:hover{
+    background-color: brown;
+    padding: 20px;
+    width: 300px;
+}
+
+main{
+    background-color: black;
+    height: 900px;
+    margin-top: -35px;
+    color: white;
+    text-align: center;
+    
+}
+
+.var-1 h2{
+    font-size: 40px;
+    padding: 40px 0;
+     
+} 
+
+.var-2 h2{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.371);
+}
+
+.var-2 h2{
+    height: 100px;
+}
+
+.var-3 input{
+    height: 44px;
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(94, 63, 63);
+    color: black;
+    margin: 10px;
+}
+.var-4 input{
+    height: 44px;
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(94, 63, 63);
+    color: rgb(14, 11, 11);
+    margin: 10px;
+}
+.var-5 input{
+    height: 44px;
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(94, 63, 63);
+    color: rgb(14, 11, 11);
+    margin: 10px;
+}
+.var-6 input{
+    height: 120px;
+    width: 40%;
+    padding: 20px ;
+    font-size: 20px;
+    background-color: rgb(94, 63, 63);
+    color: rgb(14, 11, 11);
+    margin: 10px;
+  
+}
+
+
+.var-7 a{
+    display: flex;
+    margin: 20px 900px;
+    background-color: blueviolet;
+    padding: 10px 25px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.var-7 a:hover{
+    background-color: rgba(137, 43, 226, 0.379);
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.main-w i{
+    margin: 20px 0;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.main-e{
+   background-color: aliceblue;
+   height: 80px;
+}
+
+.main-e p{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.main-w i:hover{
+    /* background-color: rgb(228, 144, 35); */
+   color: rgba(248, 248, 255, 0.547);
+}
